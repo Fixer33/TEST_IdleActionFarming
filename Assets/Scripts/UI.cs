@@ -22,7 +22,7 @@ public class UI : MonoBehaviour
     {
         instance = this;
         _player = Player.instance;
-        _defaultCoinIconSize = new Vector3(moneyIcon.transform.localScale.x, moneyIcon.transform.localScale.y, moneyIcon.transform.localScale.z)
+        _defaultCoinIconSize = new Vector3(moneyIcon.transform.localScale.x, moneyIcon.transform.localScale.y, moneyIcon.transform.localScale.z);
     }
 
     private void Update()
